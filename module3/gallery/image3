@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Masai Giraffe</title>
+</head>
+
+<body>
+	<h2>Masai Giraffe</h2>
+	<div>
+		<img src="images/image3.jpg" alt="Picure of a Masai Giraffe" height="500">
+		<div class="caption">
+			<p>
+				The Masai Giraffe is one of four subspecies of African giraffe found in Africa
+			</p>
+			<h3>
+				<a href="gallery.html">Back</a>
+			</h3>
+		</div>
+
+
+
+
+
+
+</div>
+</body>
+
+
+
+
+</html>
