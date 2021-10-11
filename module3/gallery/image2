@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kenyan Rift Valley</title>
+</head>
+
+<body>
+	<h2>Kenyan Rift Valley</h2>
+	<div>
+		<img src="images/image2.jpg" alt="Picture of the Kenyan Rift Valley" height="500">
+		<div class="caption">
+			<p>
+				This is a typical view of the landscape in the Kenyan rift valley
+			</p>
+			<h3>
+				<a href="gallery.html">Back</a>
+			</h3>
+		</div>
+
+
+
+
+
+
+</div>
+</body>
+
+
+
+
+</html>
