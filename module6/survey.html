@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Music Survey</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="">
+
+<style>
+body {
+font-size: 1.3em;
+background-color: beige;
+
+}
+content{
+width:90%;
+margin:auto;
+}
+
+h1 {
+text-align:center;
+}
+
+form {
+margin-left:5%;
+}
+input {
+margin-bottom:2%;
+}
+input#submit {
+display:block;
+background-color:#33ff99;
+font-weight:bold;
+padding: 20px;
+font-size: 1.5em;
+}
+
+select option {
+font-size: 1.75em;
+width: 150px;
+}
+</style>
+
+</head>
+<body>
+<h1>Siggi's Music Survey</h1>
+<div>
+<form method="post" action="https://idesstage2.bc.edu/class/results.php">
+	<label for="fname">First Name:</label><br>
+	<input type="text" id="fname" name="first name" value=""><br>
+	<label for="lname">Last name:</label><br>
+	<input type="text" id="lname" name="last name" value=""><br>
+	<label for="email">Email:</label><br>
+	<input type="email" id="email" name="email" required><br><br>
+	<fieldset>
+	<legend>Which band do you like best?</legend>
+	
+	<input type="checkbox" id="band1" name="cream" value="Cream">
+	<label for="band1">Cream</label><br>
+	<input type="checkbox" id="band2" name="rush" value="Rush">
+	<label for="band2">Rush</label><br>
+	<input type="checkbox" id="band3" name="pink floyd" value="Pink Floyd">
+	<label for="band3">Pink Floyd</label><br>
+	<input type="checkbox" id="band4" name="The Doors" value="The Doors">
+	<label for="band4">The Doors</label><br>
+	<input type="checkbox" id="band5" name="zeppelin" value="Led Zeppelin">
+	<label for="band5">Led Zeppelin</label><br>
+	<input type="checkbox" id="band6" name="dire straits" value="Dire Straits">
+	<label for="band6">Dire Straits</label><br>
+	</fieldset>
+	<fieldset>
+	<legend>Which Pink Floyd Album do you like best?</legend>
+
+	<input type="radio" id="Umma" name="ummagumma" value="Ummagumma">
+	<label for="Umma">Ummagumma</label><br>
+	<input type="radio" id="Obs" name="obscured" value="Obscured By Clouds">
+	<label for="Obs">Obscured By Clouds</label><br>
+	<input type="radio" id="DSOTM" name="Dark Side" value="Dark Side of the Moon">
+	<label for="DSOTM">Dark Side of the Moon</label><br>
+	<input type="radio" id="animals" name="animals" value="Animals">
+	<label for="animals">Animals</label><br>
+	</fieldset>
+
+	<h2>Select the environment you like to listen to music in:</h2>
+
+	<select name="locations" id="locations">
+	<option value="car">The car ride home after a great day of laboring</option>
+	<option value="garage">in the garage with a nice pipe and a speaker</option>
+	<option value="gym">At the gym lifting heavy weight</option>
+	<option value="lawn chair">Sitting on your lawn chair watching the sunset</option>
+  	</select>
+
+	<h2>What role do drugs, alcohol, and chaos play in the creation, and enjoyment, of music?</h2>
+	<label for="question"></label>
+	<textarea name="question" rows="3" cols="60">
+	</textarea><br><br>
+	<input type="submit" value="Send Survey">
+</form>
+</div>
+</body>
+</html>
