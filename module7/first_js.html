@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title><First Java</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="">
+<style>
+
+button {
+display: block;
+margin-top: 20px;
+}
+
+</style>
+</head>
+<body>
+<script>
+
+function mydate() {
+document.getElementById('date_display').innerHTML = Date();
+document.getElementById('date_display').style = 'display:block';
+}
+
+</script>
+
+<div>
+<h1>Javascript Example</h1>
+
+<button id="myButton" type="button" onclick="alert('Hi there!')">Greetings</button>
+<button id="button2" type="button" onclick="mydate()">Find Date</button>
+
+<div id="date_display">
+
+</div>
+
+</div>
+</body>
+</html>
