@@ -1,0 +1,37 @@
+body {
+	background-color: aliceblue;
+}
+
+h1 {
+	border: 3px solid indigo;
+	border-style: groove;
+}
+
+h2 {
+	border: 2px solid indigo;
+	border-style: groove;
+	color: red;
+}
+
+p {
+	color: olive;
+}
+
+dl {
+	color: darkblue;
+}
+
+.banner {
+	background-color: forestgreen;
+}
+
+.tools {
+	width: 100%;
+	height: auto;
+}
+
+.foundation {
+	width: 50%;
+	height: auto;
+}
+	
